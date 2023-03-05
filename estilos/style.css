@@ -36,6 +36,8 @@
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452); /*esse 10 é o espalhamento*/
 
+    transition: width 0.3s, height .3s;
+    transition-timing-function: ease;  /*não vai almentar e diminuir na mesma velocidade, vai dar uma suavizada*/
  }
 
  section#login > div#imagem {
